@@ -1,0 +1,188 @@
+.titlelogo {
+    width: 25px;
+}
+
+table {
+    font-size: 15px;
+    font-family: 'Montserrat';
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 45px;
+    font-family: 'Permanent Marker';
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: black;
+    font-size: 30px;
+    font-family: 'Montserrat';
+}
+
+h3 {
+    color: black;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 130000;
+}
+
+h4 {
+    color: rgb(15, 15, 15);
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 130000;
+}
+
+p {
+    color: black;
+    font-size: 15px;
+    font-family: 'Montserrat';
+    font-weight: 130000;
+}
+
+ul {
+    color: black;
+    font-size: 15px;
+    font-family: 'Montserrat';
+    font-weight: 130000;
+}
+
+main {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*HEADER FORMAT*/
+header {
+    background-image: url('unsplashpics/mitchell-luo-Y3JqlSzHwow-unsplash.jpg');
+    height: 50%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*LinkedIn + Coding Blog + GitHub*/
+.linkmenu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    text-decoration: none;
+    list-style:none !important;
+}
+  
+.menuitem img {
+    display: block;
+    max-width: 100%;
+}
+
+.menuitem a:link{
+    color: whitesmoke;
+}
+
+.menuitem a:visited{
+    color: whitesmoke;
+}
+
+.menuitem a:hover{
+    color: rgb(124, 167, 202);
+
+}
+
+/*SELECTIONMENU LOGO FORMAT*/
+
+.logomenu-index {
+    margin: auto;
+    width: 50%;
+    padding: 100px;
+    text-align: center;
+}
+
+.logomenu-index img{
+    width: 150px;
+    height: 150px;    
+    display: inline-flexbox;
+    padding-right: 50px;
+}
+
+/*SELECTIONMENU FOR CODING & TRAVEL → LOGO FORMAT*/
+
+.logomenu {
+    margin: auto;
+    width: fit-content;
+    height: auto;
+    text-align: center;
+}
+
+.logomenu img{
+    width: 80px;
+    height: 80px;    
+    display: inline-flexbox;
+    padding: 20px;
+    backface-visibility: inherit;
+    box-shadow: 2px 1px 5px rgba(77, 76, 76, 0.6);
+}
+
+/*FOOTER FORMAT*/
+footer {
+    background-image: url('unsplashpics/klim-musalimov-rDMacl1FDjw-unsplash.jpg');
+    max-width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-inline-start: 30px;
+}
+
+footer p{
+    color: whitesmoke;
+}
+
+/*TABLE FORMAT*/
+table {
+    border: 1px solid rgb(151, 151, 151);
+}
+
+/*TRAVEL PICTURES*/
+.pics_block {
+    display: flex;
+}
+
+.travelpic {
+    display: inline-block;
+    border: 1px dotted gray;
+    margin: 20px;
+    text-align: center;
+}
+
+.travelpic img{
+    vertical-align: top;
+}
+
+.travelpic figcaption{
+    text-align: end;
+}
+
+/*VIDEO AND PLAYLIST*/
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+.playlist {
+        display: flex;
+        justify-content: center;
+        width: fit-content;
+}
