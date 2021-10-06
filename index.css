@@ -185,4 +185,5 @@ table {
         display: flex;
         justify-content: center;
         width: fit-content;
+        margin: auto;
 }
