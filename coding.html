@@ -2,131 +2,143 @@
 
 <html>
 
-    <head>
-        <title>Sara's website - Coding</title>
-        <link href="index.css" rel="stylesheet" type="text/css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;900&family=Montserrat&family=Permanent+Marker&display=swap" rel="stylesheet">
-    </head>
+<head>
+    <title>Sara's website - Coding</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;900&family=Montserrat&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
 
-    <body>
-        <header>
-            <h1>Sara Bonnin Richaud</h1>
-            <ul class="linkmenu">
-                <!--Links to other pages (html and external)-->
-                <li class="menuitem"><a href="index.html">Home Page</a> | </li>
-                <li class="menuitem"><a href="https://www.linkedin.com/in/sarabonninrichaud" target="_blank">LinkedIn</a> | </li>
-                <li class="menuitem"><a href="https://clicktocode.wordpress.com" target="_blank">Coding Blog</a> | </li>
-                <li class="menuitem"><a href="https://github.com/SaraClick" target="_blank">GitHub</a></li>
+<body>
+    <header>
+        <h1>Sara Bonnin Richaud</h1>
+        <ul class="linkmenu">
+            <!--Links to other pages (html and external)-->
+            <li class="menuitem"><a href="index.html">Home Page</a> | </li>
+            <li class="menuitem"><a href="https://www.linkedin.com/in/sarabonninrichaud" target="_blank">LinkedIn</a> | </li>
+            <li class="menuitem"><a href="https://clicktocode.wordpress.com" target="_blank">Coding Blog</a> | </li>
+            <li class="menuitem"><a href="https://github.com/SaraClick" target="_blank">GitHub</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <h2>Coding</h2>
+
+        <nav class="logomenu">
+            <!--add navigation within page with the logos TO BE ADDED-->
+            <a href="#python"><img src="logos\codingpython.png" alt="Python" class="selectionmenu" title="Python"></a>
+            <a href="#mysql"><img src="logos\codingmysql.png" alt="MySQL" class="selectionmenu" title="MySQL"></a>
+            <a href="#webdev"><img src="logos\codinghtml.png" alt="WebDev" class="selectionmenu" title="WebDev"></a>
+        </nav>
+
+        <div id="python">
+            <h3><img src="logos\codingpython.png" alt="Python" class="titlelogo">Python</h3>
+
+            <p>Python 3 was my first language, my first Hello World. I learned the basics of Python 3 following the CodeCademy course which I ended up doing twice (not that I am proud of... but I love normalising the learning process and that it is OK to
+                not understand or pick things up from the first take). After finishing my second round of the course I wanted to try my first mini projects outside of the platform so I could install Python, an IDLE (I chose PyCharm) and get my head around
+                a more realistic coding environement.</p>
+            <p>One of the most challenging things I faced was to come up with an idea. Once I had the idea or something that really interested me, it was fun to see how I could get stuck, search the internet (mainly stackoverflow) for answers and then get
+                like a sugar rush when things worked.</p>
+            <p>I know they are easy projects... but I still like the time spent while doing them and I am proud of what I accomplished being a complete beginner to code!</p>
+
+            <h4>Hangman game</h4>
+            <p>Very beginner friendly game, I created a hangman with the Schengen countries. Although I know it is a simple project, it was s good first one to do mainly because:</p>
+            <ul>
+                <li>It is doable for a pure beginner with a base of Python, the fact of facing something achievable was very positive for me so I wouldn’t feel demotivated on my first project thinking I wasn’t cut for this!</li>
+                <li>Practice a lot of if, elif, else including loops and knowing when to break.</li>
+                <li>It allowed me to start playing around with functions creating one for the hangman display and also for game over so I could easily call those every time I needed them.</li>
+                <li>Use of the random module, in my case I used the random.choice() for the selection of the word to be guessed.</li>
+                <li>It’s a game…so it’s fun to test once it’s finished! Also, as it is an easy game, it is very easy to test yourself different scenarios: guessing the word before all my tries are consumed, not guessing at all the word, what if I input a
+                    number instead of a letter, etc?</li>
             </ul>
-        </header>
-
-        <main>
-            <h2>Coding</h2>
-            
-            <nav class="logomenu">
-                <!--add navigation within page with the logos TO BE ADDED-->
-                <a href="#python"><img src="logos\codingpython.png" alt="Python" class="selectionmenu" title="Python"></a>
-                <a href="#mysql"><img src="logos\codingmysql.png" alt="MySQL" class="selectionmenu" title="MySQL"></a>
-                <a href="#webdev"><img src="logos\codinghtml.png" alt="WebDev" class="selectionmenu" title="WebDev"></a>
-            </nav>
-
-            <div id="python">
-                <h3><img src="logos\codingpython.png" alt="Python" class="titlelogo">Python</h3>
-
-                    <p>Python 3 was my first language, my first Hello World. I learned the basics of Python 3 following the CodeCademy course which I ended up doing twice (not that I am proud of... but I love normalising the learning process and that it is OK to not understand or pick things up from the first take). After finishing my second round of the course I wanted to try my first mini projects outside of the platform so I could install Python, an IDLE (I chose PyCharm) and get my head around a more realistic coding environement.</p>
-                    <p>One of the most challenging things I faced was to come up with an idea. Once I had the idea or something that really interested me, it was fun to see how I could get stuck, search the internet (mainly stackoverflow) for answers and then get like a sugar rush when things worked.</p>
-                    <p>I know they are easy projects... but I still like the time spent while doing them and I am proud of what I accomplished being a complete beginner to code!</p>
-
-                    <h4>Hangman game</h4>
-                        <p>Very beginner friendly game, I created a hangman with the Schengen countries. Although I know it is a simple project, it was s good first one to do mainly because:</p>
-                        <ul>
-                            <li>It is doable for a pure beginner with a base of Python, the fact of facing something achievable was very positive for me so I wouldn’t feel demotivated on my first project thinking I wasn’t cut for this!</li>
-                            <li>Practice a lot of if, elif, else including loops and knowing when to break.</li>
-                            <li>It allowed me to start playing around with functions creating one for the hangman display and also for game over so I could easily call those every time I needed them.</li>
-                            <li>Use of the random module, in my case I used the random.choice() for the selection of the word to be guessed.</li>
-                            <li>It’s a game…so it’s fun to test once it’s finished! Also, as it is an easy game, it is very easy to test yourself different scenarios: guessing the word before all my tries are consumed, not guessing at all the word, what if I input a number instead of a letter, etc?</li>
-                        </ul>
-                        <p>Here is the link to the project's code: 
-                            <a href="https://github.com/SaraClick/HangmanGame" target="_blank">Schengen Hangman</a>
-                        </p>
-                        <br>
-        
-                    <h4>Netflix analysis </h4>
-                        <p>One day, while speaking with my mum about how the pandemic increased our time spent watching Netflix, I said that I would love to compare the data to see who had the biggest increase in time on Netflixby comparing before and during the pandemic. I must confess, my mum was terrified of the idea (as she knew how much she was binge watching!) which made it even funnier for me to get into it!</p>
-                        <p>First step was to get the Netflix data from our account. As we have a family account, I could have the data for the whole account . After a few days, I received the notification about the data being now available so I downloaded it and wow… there was a lot of data! Once my first shock had passed, I saw that I couldn’t just start the process straight as I imagined, so I decided to take my time to:</p>
-                        <ul>
-                            <il>Familiarise myself with all the data gathered so I could identify the documents and csv that contained the information to be imported for the project.</il>
-                            <il>Structure my project: what do I really want from it?</il>
-                        </ul>
-                        <p>Then I was ready, I decided to structure my project in 2 parts:</p>
-                        <ul>
-                            <li>Analytical part: this will fully dedicated to import the data needed and then create the different functions to extract information such as the shows watched, compare data, time watched, calculation of increases between period.</il>
-                            <li>User part: I wanted to show the user the following options where the user could select what they wanted to view and the result would be prompted.</li>
-                        </ul>
-                        <p>Again, I know it looks simple but I found some challenges while trying to code which I enjoyed solving and I was able to make it work as I wanted. Again, with some shy feeling from my part but wanting to be more open with my coding journey, here is my code in case you want to check out what I did.</p>
-                        <p>Little spoiler alert here… my mum doubled my increase in hours watched, that’s why she got nervous when I started the project ! </p>
-                        <p>Here is the link to the project's code: 
-                            <a href="https://github.com/SaraClick/NetflixData" target="_blank">Netflix Covid analysis</a>
-                        </p>
-                        <br>
-            </div>
-
-            <div id="mysql">
-                <h3><img src="logos\codingmysql.png" alt="MySQL" class="titlelogo">MySQL</h3>
-                    <h4> CFG Data & SQL course</h4>
-                    <p>I enrolled on an intensive 4 weeks course with 2 sessions per week which was remotely taught via Zoom and using Slack to interact and collaborate between course students and instructors.
-                    <p>The content of the MySQL course included:</p>
-                        <ul>
-                            <li>Database creation</li>
-                            <li>Table creation and data insertion</li>
-                            <li>Relational databases</li>
-                            <li>Aggregation, order, group by, having</li>
-                            <li>Joins and subqueries</li>
-                            <li>Stored functions</li>
-                            <li>Stored procedures</li>
-                            <li>Triggers</li>
-                            <li>Views</li>
-                        </ul>
-                        <p>Something that amazed me the most from the course was the feeling of camaraderie we all had seeing students helping each other… I loved it! We had like a “safe space” to post out queries, where we struggled and even share out code so other could help us out. Even if I couldn’t help out, I liked to read others code and responses and how they solved the problem as it helped me learn more.</p>
-                    <h4>PlanShop</h4>
-                        <p>My project was a database to store recipes with its ingredients so I could automatically create my shopping list by selecting the recipes I wanted to include in my next week’s meal plan. In addition I added the possibility to have different supermarkets so I could also compare where would it be cheaper to buy the products from</p>
-                        <p>One of the things I struggled the most with my project was the initial part of building my database and tables as I wanted my data to be as normalised as possible. I started designing something in Excel so I could get an idea of the tables and type or variables I would have in each of them including how they would be linking to each other… but then as I went into practice some things were not as polished as I thought they were which resulted in me having to drop tables (and the whole database) a few times until I was fully happy with it. Even if this part felt a little frustrating I must recognise that I learned a lot from it and I felt a great satisfaction when I finally got it.</p>
-                        <p>Once the project was completed… it was time to present it to my colleagues and instructors. I was super nervous, it was my first time talking to someone about something code/technical related… but I did it! As I look back to it, I would love to improve a few things on my presentation but when I take into consideration the time I had available and the learning curve I went through, I am proud of myself… here I was, presenting a mini project on something I learned in only 4 weeks.</p>
-                        <p>Here is the link to the project's code [not sure GitHub is to share MySQL...but for the purpose of this website allow it to me :) ]: 
-                            <a href="https://github.com/SaraClick/PlanShop" target="_blank">PlanShop</a>
-                        </p>
-                        <br>
-            </div>
-            
-            <div id="webdev">
-                <h3><img src="logos\codinghtml.png" alt="WebDev" class="titlelogo">WebDev</h3>
-                    <h4>This website :)</h4>
-                        <p>This website is my practice exercise for the HTML and CSS basics covered during the CFG Web Development Course!</p>
-                        <p>Sources used:</p>
-                            <ul>
-                                <li><a href="https://freeicons.io/" target="_blank">Freeicons.com</a></li>
-                                <li><a href="https://unsplash.com/" target="_blank">Unsplash.com</a></li>
-                            </ul>
-                        
-                        <p>Here is the link to the project's code: 
-                            <a href="https://github.com/SaraClick/w2_html_css" target="_blank">Website exercise</a>
-                        </p>
-                        <br>
-            </div>
+            <p>Here is the link to the project's code:
+                <a href="https://github.com/SaraClick/HangmanGame" target="_blank">Schengen Hangman</a>
+            </p>
             <br>
 
-        </main>
+            <h4>Netflix analysis </h4>
+            <p>One day, while speaking with my mum about how the pandemic increased our time spent watching Netflix, I said that I would love to compare the data to see who had the biggest increase in time on Netflixby comparing before and during the pandemic.
+                I must confess, my mum was terrified of the idea (as she knew how much she was binge watching!) which made it even funnier for me to get into it!</p>
+            <p>First step was to get the Netflix data from our account. As we have a family account, I could have the data for the whole account . After a few days, I received the notification about the data being now available so I downloaded it and wow…
+                there was a lot of data! Once my first shock had passed, I saw that I couldn’t just start the process straight as I imagined, so I decided to take my time to:</p>
+            <ul>
+                <il>Familiarise myself with all the data gathered so I could identify the documents and csv that contained the information to be imported for the project.</il>
+                <il>Structure my project: what do I really want from it?</il>
+            </ul>
+            <p>Then I was ready, I decided to structure my project in 2 parts:</p>
+            <ul>
+                <li>Analytical part: this will fully dedicated to import the data needed and then create the different functions to extract information such as the shows watched, compare data, time watched, calculation of increases between period.</il>
+                    <li>User part: I wanted to show the user the following options where the user could select what they wanted to view and the result would be prompted.</li>
+            </ul>
+            <p>Again, I know it looks simple but I found some challenges while trying to code which I enjoyed solving and I was able to make it work as I wanted. Again, with some shy feeling from my part but wanting to be more open with my coding journey,
+                here is my code in case you want to check out what I did.</p>
+            <p>Little spoiler alert here… my mum doubled my increase in hours watched, that’s why she got nervous when I started the project ! </p>
+            <p>Here is the link to the project's code:
+                <a href="https://github.com/SaraClick/NetflixData" target="_blank">Netflix Covid analysis</a>
+            </p>
+            <br>
+        </div>
 
-    </body>
+        <div id="mysql">
+            <h3><img src="logos\codingmysql.png" alt="MySQL" class="titlelogo">MySQL</h3>
+            <h4> CFG Data & SQL course</h4>
+            <p>I enrolled on an intensive 4 weeks course with 2 sessions per week which was remotely taught via Zoom and using Slack to interact and collaborate between course students and instructors.
+                <p>The content of the MySQL course included:</p>
+                <ul>
+                    <li>Database creation</li>
+                    <li>Table creation and data insertion</li>
+                    <li>Relational databases</li>
+                    <li>Aggregation, order, group by, having</li>
+                    <li>Joins and subqueries</li>
+                    <li>Stored functions</li>
+                    <li>Stored procedures</li>
+                    <li>Triggers</li>
+                    <li>Views</li>
+                </ul>
+                <p>Something that amazed me the most from the course was the feeling of camaraderie we all had seeing students helping each other… I loved it! We had like a “safe space” to post out queries, where we struggled and even share out code so other
+                    could help us out. Even if I couldn’t help out, I liked to read others code and responses and how they solved the problem as it helped me learn more.</p>
+                <h4>PlanShop</h4>
+                <p>My project was a database to store recipes with its ingredients so I could automatically create my shopping list by selecting the recipes I wanted to include in my next week’s meal plan. In addition I added the possibility to have different
+                    supermarkets so I could also compare where would it be cheaper to buy the products from</p>
+                <p>One of the things I struggled the most with my project was the initial part of building my database and tables as I wanted my data to be as normalised as possible. I started designing something in Excel so I could get an idea of the tables
+                    and type or variables I would have in each of them including how they would be linking to each other… but then as I went into practice some things were not as polished as I thought they were which resulted in me having to drop tables
+                    (and the whole database) a few times until I was fully happy with it. Even if this part felt a little frustrating I must recognise that I learned a lot from it and I felt a great satisfaction when I finally got it.</p>
+                <p>Once the project was completed… it was time to present it to my colleagues and instructors. I was super nervous, it was my first time talking to someone about something code/technical related… but I did it! As I look back to it, I would
+                    love to improve a few things on my presentation but when I take into consideration the time I had available and the learning curve I went through, I am proud of myself… here I was, presenting a mini project on something I learned in
+                    only 4 weeks.</p>
+                <p>Here is the link to the project's code [not sure GitHub is to share MySQL...but for the purpose of this website allow it to me :) ]:
+                    <a href="https://github.com/SaraClick/PlanShop" target="_blank">PlanShop</a>
+                </p>
+                <br>
+        </div>
 
-    <footer>
-        <p>Sara Bonnin Richaud <br>
-           Code First Girls | Web Development course</p>
-    </footer>
+        <div id="webdev">
+            <h3><img src="logos\codinghtml.png" alt="WebDev" class="titlelogo">WebDev</h3>
+            <h4>This website :)</h4>
+            <p>This website is my practice exercise for the HTML and CSS basics covered during the CFG Web Development Course!</p>
+            <p>Sources used:</p>
+            <ul>
+                <li><a href="https://freeicons.io/" target="_blank">Freeicons.com</a></li>
+                <li><a href="https://unsplash.com/" target="_blank">Unsplash.com</a></li>
+            </ul>
+
+            <p>Here is the link to the project's code:
+                <a href="https://github.com/SaraClick/w2_html_css" target="_blank">Website exercise</a>
+            </p>
+            <br>
+        </div>
+        <br>
+
+    </main>
+
+</body>
+
+<footer>
+    <p>Sara Bonnin Richaud <br> Code First Girls | Web Development course
+    </p>
+</footer>
 
 </html>
-        
